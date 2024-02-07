@@ -1,6 +1,6 @@
-wieght:int=input("user to provide his wieght")
-height:int=input("user to provide his height")
-x = weight / (height*height/100)
+weight =int(input("user to provide his weight"))
+height =int(input("user to provide his height"))
+x = weight / (height/100)**2
 print(x)
 if x < 18.5:
     print('You are overwieght you need to work out more and watch your diet')
