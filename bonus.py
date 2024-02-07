@@ -1,5 +1,5 @@
 weight:float = float(input("Enter your wieght in kilos : "))
-height:float = float(input("Enter your height cm : "))
+height:float = float(input("Enter your height meters : "))
 BMI:float = weight / height**2
 
 if BMI < 18.5:
