@@ -9,7 +9,7 @@ BMI = user_weight / (user_height**2)
 print("Your BMI is: ", BMI)
 
 # Categorize the BMI value
-if BMI > 0:
+if BMI > 1:
     if BMI <= 16:
         print("You are underweight. Watch your health")
     elif BMI <= 25:
