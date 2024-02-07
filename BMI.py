@@ -2,10 +2,13 @@
 user_weight:str = float(input("Please enter your weight in kilograms: "))
 
 #Ask the user to provide his height
-user_height:str = float(input("Please enter your height in meters: "))
+user_height:str = float(input("Please enter your height in cm: "))
+
+#Convert metrics
+from_cm_to_m:float = user_height/100
 
 # Calculate the BMI
-BMI = user_weight / (user_height**2)
+BMI = user_weight / (from_cm_to_m**2)
 print("Your BMI is: ", BMI)
 
 # Categorize the BMI value
