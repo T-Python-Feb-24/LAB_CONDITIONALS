@@ -1,6 +1,6 @@
 weight:float = float(input("Enter your wieght in kilos : "))
-height:float = float(input("Enter your height meters : "))
-BMI:float = weight / height**2
+height:int = int(input("Enter your height in centimeter : "))
+BMI:float = weight / (height/100)**2
 
 if BMI < 18.5:
     print("You are underweight. Watch your health.")
