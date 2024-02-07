@@ -21,7 +21,7 @@
 - using conditionals tell the user that either :
 - - You are overwieght you need to work out more and watch your diet.
 - - You are fit & healthy.
-- - You are underweight. Watch your health.
+- - You are underwieght.watch your health.
 
 ### Note
 for formula , search the web.
