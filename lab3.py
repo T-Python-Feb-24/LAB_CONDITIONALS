@@ -6,8 +6,6 @@ if rating >=4 and popularity >80 :
 elif rating >=3 and popularity >70 :
     print("I recommended it it is good")
 elif rating <=2 and popularity >60 :
-    print ("You should check it out!")
-elif rating <=2 and popularity >50:
-    print("Dont watch it.it is a waset of time")
+    print ("You should check it out!")    
 else:
-    print("f")
+    print("Dont watch it.it is a waset of time") 
